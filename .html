@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=*utf-8*>
+<title>Привет</title>
+</head>
+<body>
+<h1>Решение дискриминанта</h1>
+a=<input type="text" id="a"><br>
+b=<input type="text" id="b"><br>
+c=<input type="text" id="c"><br>
+<input type="submit" onclick="solve(a, b, c)">
+<script>
+function solve (a, b, c)
+{
+	//alert ('подождите');
+	a=document.getElementById('a').value
+	b=document.getElementById('b').value
+	c=document.getElementById('c').value
+	s=(b*b)-(4*a*c);
+	alert('Решение='+s);
+}
+</script>
+</body>
+</html>
